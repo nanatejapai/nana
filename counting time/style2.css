@@ -1,0 +1,33 @@
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('ds-digi.ttf');
+}
+
+.button {
+	font-size:70pt;
+}
+
+body{
+    font-family: 'digital-clock-font';
+	font-size: 130pt; color: green;
+	background-color: black;
+	text-align: center;
+}
+main {
+	margin: auto;
+	display: inline-block;
+	display: flex;
+    flex-direction: row;     /* make main axis horizontal (default setting) */
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;     /* center items vertically, in this case */
+    height: 200px;
+
+}
+.counter {
+	display: none;
+}
+.hide{
+/*	visibility:hidden
+
+
+}
