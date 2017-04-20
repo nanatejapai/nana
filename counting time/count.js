@@ -35,7 +35,12 @@ $('#stopTimer').click(function(){
 $('#startTimer').click(function(){
 	audioElement.play();
 	});
-
+$('#startTimer').click(function(){
+    $(".result").show();
+});
+$('#stopTimer').click(function(){
+    $(".result").hide();
+});
 // $('.hide').click(function() {
 //         $('.counter').hide();audioElement.pause();
 //     });

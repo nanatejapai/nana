@@ -3,31 +3,54 @@
  src: url('ds-digital.woff');
 }
 
-.button {
-	font-size:70pt;
-}
 
 body{
     font-family: 'digital-clock-font';
-	font-size: 130pt; color: green;
+	font-size: 170pt; color: green;
 	background-color: black;
 	text-align: center;
+	margin-top: 70px;
 }
-main {
+main{
 	margin: auto;
-	display: inline-block;
-	display: flex;
-    flex-direction: row;     /* make main axis horizontal (default setting) */
-    justify-content: center; /* center items horizontally, in this case */
-    align-items: center;     /* center items vertically, in this case */
-    height: 200px;
+}
+/*	text-align: center;*/
+	/*position: fixed;
+	top: 100px;
+	left: 300px;*/
 
 }
 .counter {
 	display: none;
+/*	display: flex;*/
+    align-items: center;
+    justify-content: center;
 }
 .hide{
-/*	visibility:hidden
+	visibility:hidden
 
 
+}
+.button {
+	font-size:60pt;
+	display: inline-block;
+	padding: 90px;
+}
+
+.container p{
+	font-size:30pt;
+	display: inline-block;
+	padding: 60px;
+	position: relative;
+	top: -140px;
+/*	position: absolute;
+	top: 400px;
+	left: 100px;*/
+}
+.result p{
+	font-size:30pt;
+	display: inline-block;
+	padding: 30px;
+	position: relative;
+	top: -370px;
 }
