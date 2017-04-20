@@ -6,7 +6,7 @@
 
 body{
     font-family: 'digital-clock-font';
-	font-size: 170pt; color: green;
+	font-size: 170pt; color: red;
 	background-color: black;
 	text-align: center;
 	margin-top: 70px;
@@ -52,7 +52,7 @@ main{
 .result p{
 	font-size:30pt;
 	display: inline-block;
-	padding: 30px;
+	padding: 70px;
 	position: relative;
-	top: -380px;
+	top: 20px;
 }
